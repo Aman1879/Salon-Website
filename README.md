@@ -1,3 +1,8 @@
+## Live Website
+
+Check out the live version of the Glow Stack here:  
+[Glow Stack](https://egglowstack.netlify.app/)
+
 # ✨ GlowStack Salon  
 ### Beauty & Wellness Booking Platform
 
