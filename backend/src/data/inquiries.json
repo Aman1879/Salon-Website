@@ -1,0 +1,79 @@
+{
+  "inquiries": [
+    {
+      "id": 1767030475861,
+      "name": "Aman Kumar Singh",
+      "email": "amanara13579@gmail.com",
+      "phone": "+916299211631",
+      "service": "Relaxation & Pain-Relief Therapy",
+      "preferredDate": "2025-12-30",
+      "preferredTime": "10:00",
+      "message": "",
+      "numberOfPeople": 1,
+      "status": "accepted",
+      "createdAt": "2025-12-29T17:47:55.861Z",
+      "updatedAt": "2025-12-29T17:48:09.100Z"
+    },
+    {
+      "id": 1767029799433,
+      "name": "vibhu",
+      "email": "amanara13579@gmail.com",
+      "phone": "+916299211631",
+      "service": "Body Scrub",
+      "preferredDate": "2025-12-30",
+      "preferredTime": "10:00",
+      "message": "Hello",
+      "numberOfPeople": 1,
+      "status": "rejected",
+      "createdAt": "2025-12-29T17:36:39.433Z",
+      "updatedAt": "2025-12-29T17:47:27.791Z"
+    },
+    {
+      "id": 1767029755484,
+      "name": "Vaibhav",
+      "email": "vibhu1234@gmail.com",
+      "phone": "1234567890",
+      "service": "Luxury Facial & Skincare",
+      "preferredDate": "2025-12-30",
+      "preferredTime": "10:00",
+      "message": "Hello",
+      "numberOfPeople": 1,
+      "status": "rejected",
+      "createdAt": "2025-12-29T17:35:55.484Z",
+      "updatedAt": "2025-12-29T17:36:07.015Z"
+    },
+    {
+      "id": 1767028811421,
+      "name": "Vaihav",
+      "email": "vibhu1234@gmail.com",
+      "phone": "9262123452",
+      "service": "Detox & Rejuvenation Therapy",
+      "preferredDate": "2025-12-30",
+      "preferredTime": "10:00",
+      "message": "Ka haal ba",
+      "numberOfPeople": 1,
+      "status": "rejected",
+      "createdAt": "2025-12-29T17:20:11.421Z",
+      "updatedAt": "2025-12-29T17:32:13.898Z"
+    },
+    {
+      "id": 1767028757195,
+      "name": "Shubham Singh",
+      "email": "shubh1234@gmail.com",
+      "phone": "1234567890",
+      "service": "Body Scrub",
+      "preferredDate": "2025-12-30",
+      "preferredTime": "10:00",
+      "message": "Hello",
+      "numberOfPeople": 1,
+      "status": "accepted",
+      "createdAt": "2025-12-29T17:19:17.195Z",
+      "updatedAt": "2025-12-29T17:36:03.933Z"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "pending": 0,
+    "contacted": 0
+  }
+}

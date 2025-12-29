@@ -1,0 +1,172 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Swedish Massage",
+      "category": "massage",
+      "description": "A relaxing full-body massage for stress relief and improved circulation — ideal for regular self-care.",
+      "duration": 60,
+      "price": 1200,
+      "image": "https://images.pexels.com/photos/3997994/pexels-photo-3997994.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Relaxation", "Stress Relief", "Improved Circulation"]
+    },
+    {
+      "id": 2,
+      "name": "Deep Tissue Massage",
+      "category": "massage",
+      "description": "Therapeutic massage targeting deep muscle knots and chronic tension — great for recovery and intense relief.",
+      "duration": 90,
+      "price": 2200,
+      "image": "https://images.pexels.com/photos/3865832/pexels-photo-3865832.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": false,
+      "features": ["Pain Relief", "Muscle Recovery", "Chronic Tension"]
+    },
+    {
+      "id": 3,
+      "name": "Facial Treatment",
+      "category": "facial",
+      "description": "Customized facials for Indian skin types — cleansing, exfoliation and hydration to boost radiance.",
+      "duration": 75,
+      "price": 1200,
+      "image": "https://images.pexels.com/photos/3985360/pexels-photo-3985360.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Skin Hydration", "Cleansing", "Glow & Brightening"]
+    },
+    {
+      "id": 4,
+      "name": "Hot Stone Therapy",
+      "category": "massage",
+      "description": "Warm basalt stones and expert techniques to release tension and promote deep relaxation.",
+      "duration": 90,
+      "price": 2000,
+      "image": "https://images.pexels.com/photos/161477/massage-stones-balance-relaxation-161477.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Deep Relaxation", "Muscle Warmth", "Stress Reduction"]
+    },
+    {
+      "id": 5,
+      "name": "Body Scrub",
+      "category": "body",
+      "description": "Revitalizing body scrub to exfoliate and renew skin — ideal before events and special occasions.",
+      "duration": 50,
+      "price": 1000,
+      "image": "https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": false,
+      "features": ["Exfoliation", "Skin Renewal", "Smooth Skin"]
+    },
+    {
+      "id": 6,
+      "name": "Aromatherapy",
+      "category": "aroma",
+      "description": "Personalized essential-oil sessions for relaxation and mood support, blended by our trained therapists.",
+      "duration": 60,
+      "price": 1200,
+      "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": false,
+      "features": ["Emotional Balance", "Custom Blends", "Holistic Care"]
+    },
+    {
+      "id": 7,
+      "name": "Haircut & Hair Styling",
+      "category": "hair",
+      "description": "Precision haircuts and styling for men, women & children. Options include quick trims, full restyles, and styling for special occasions (bridal & party looks available).",
+      "duration": 60,
+      "price": 600,
+      "image": "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Men, Women & Kids", "Blow-dry & Styling", "Bridal & Party Looks"]
+    },
+    {
+      "id": 8,
+      "name": "Hair Coloring & Highlights",
+      "category": "color",
+      "description": "Full color, highlights and balayage tailored for Indian hair textures — includes consultation and root touch-up options.",
+      "duration": 120,
+      "price": 2500,
+      "image": "https://images.pexels.com/photos/3993445/pexels-photo-3993445.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Balayage & Highlights", "Full Color", "Root Touch-Up"]
+    },
+    {
+      "id": 9,
+      "name": "Keratin & Nourishing Treatments",
+      "category": "hair",
+      "description": "Intensive smoothing and nourishing treatments (keratin, protein masks) to restore shine and reduce frizz for Indian hair textures.",
+      "duration": 90,
+      "price": 3500,
+      "image": "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": false,
+      "features": ["Keratin & Smoothening", "Deep Nourishment", "Frizz Control"]
+    },
+    {
+      "id": 10,
+      "name": "Detox & Rejuvenation Therapy",
+      "category": "body",
+      "description": "Restorative full-body packages combining exfoliation and nourishing therapies to refresh and detoxify skin and body.",
+      "duration": 90,
+      "price": 2500,
+      "image": "https://images.pexels.com/photos/3865685/pexels-photo-3865685.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": false,
+      "features": ["Aromatherapy", "Detox & Rejuvenation", "Stress Relief"]
+    },
+
+    {
+      "id": 11,
+      "name": "Manicure & Pedicure",
+      "category": "nails",
+      "description": "Classic and luxury manicure/pedicure services with nail shaping, cuticle care, and polish — including foot therapies and quick express options.",
+      "duration": 50,
+      "price": 700,
+      "image": "https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Nail Shaping", "Cuticle Care", "Pedicure"]
+    },
+    {
+      "id": 12,
+      "name": "Luxury Facial & Skincare",
+      "category": "skincare",
+      "description": "Targeted advanced facials for acne, pigmentation and anti-aging — tailored to Indian skin concerns for visible rejuvenation.",
+      "duration": 75,
+      "price": 2500,
+      "image": "https://images.pexels.com/photos/3764568/pexels-photo-3764568.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Anti-Aging", "Deep Cleansing", "Glow & Rejuvenation"]
+    },
+    {
+      "id": 13,
+      "name": "Relaxation & Pain-Relief Therapy",
+      "category": "massage",
+      "description": "Therapeutic sessions focused on pain relief and muscle relaxation, combining tailored techniques for lasting relief.",
+      "duration": 60,
+      "price": 1500,
+      "image": "https://images.pexels.com/photos/889199/pexels-photo-889199.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": false,
+      "features": ["Pain Relief", "Muscle Relaxation", "Therapeutic Techniques"]
+    },
+    {
+      "id": 14,
+      "name": "Bridal & Party Styling",
+      "category": "makeup",
+      "description": "Specialist bridal and party styling packages including hair, makeup coordination and on-site styling services for weddings and events.",
+      "duration": 180,
+      "price": 8000,
+      "image": "https://images.pexels.com/photos/1446161/pexels-photo-1446161.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "popular": true,
+      "features": ["Bridal Hair", "Event Styling", "On-site Services"]
+    }
+  ],
+  "categories": [
+    {"id": "all", "name": "All Services"},
+    {"id": "massage", "name": "Massage Therapies"},
+    {"id": "facial", "name": "Facial Treatments"},
+    {"id": "body", "name": "Body Treatments"},
+    {"id": "aroma", "name": "Aromatherapy"},
+    {"id": "hair", "name": "Hair Services"},
+    {"id": "color", "name": "Coloring & Treatments"},
+    {"id": "nails", "name": "Manicure & Pedicure"},
+    {"id": "spa", "name": "Salon Treatments"},
+    {"id": "skincare", "name": "Facial & Skincare"},
+    {"id": "makeup", "name": "Makeup & Beauty"}
+  ]
+}

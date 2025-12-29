@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "id": 1767032514325,
+      "name": "Aman Kumar Singh",
+      "email": "amanara13579@gmail.com",
+      "phone": "06299211631",
+      "subject": "Shop",
+      "message": "ka haal ba",
+      "status": "replied",
+      "createdAt": "2025-12-29T18:21:54.325Z",
+      "updatedAt": "2025-12-29T18:22:11.676Z"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "unread": 0,
+    "replied": 1
+  }
+}

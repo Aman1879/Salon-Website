@@ -1,0 +1,88 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Precision Haircut",
+      "category": "hair",
+      "image": "https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Layered cut and blow-dry in our styling chair",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Hair Coloring Suite",
+      "category": "color",
+      "image": "https://images.pexels.com/photos/3993445/pexels-photo-3993445.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Balayage and highlights with professional colorists",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Bridal Makeup Finish",
+      "category": "makeup",
+      "image": "https://images.unsplash.com/photo-1582576192532-06353147fcbf?auto=format&q=80&w=1200&h=800&fit=crop&crop=faces",
+      "description": "Event-ready bridal and party makeup",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Luxury Facial Room",
+      "category": "facial",
+      "image": "https://images.pexels.com/photos/3764014/pexels-photo-3764014.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Hydrating facial and skincare therapy setup",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Spa Massage Therapy",
+      "category": "massage",
+      "image": "https://images.pexels.com/photos/3865792/pexels-photo-3865792.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Full-body massage with aromatherapy oils",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "title": "Body Scrub Ritual",
+      "category": "body",
+      "image": "https://images.pexels.com/photos/3738348/pexels-photo-3738348.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Exfoliating body treatment and polish",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Manicure & Pedicure Lounge",
+      "category": "nails",
+      "image": "https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Nail care with classic and gel finishes",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Aromatherapy Setup",
+      "category": "aroma",
+      "image": "https://images.pexels.com/photos/965984/pexels-photo-965984.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Essential oils and diffuser for mood-balancing sessions",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "title": "Salon Reception",
+      "category": "facility",
+      "image": "https://images.pexels.com/photos/962989/pexels-photo-962989.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+      "description": "Warm, professional welcome area for guests",
+      "featured": true
+    }
+  ],
+  "categories": [
+    {"id": "all", "name": "All", "count": 9},
+    {"id": "hair", "name": "Hair Styling", "count": 1},
+    {"id": "color", "name": "Hair Coloring", "count": 1},
+    {"id": "makeup", "name": "Makeup & Beauty", "count": 1},
+    {"id": "facial", "name": "Facial & Skincare", "count": 1},
+    {"id": "massage", "name": "Massage & Spa", "count": 1},
+    {"id": "body", "name": "Body Treatments", "count": 1},
+    {"id": "nails", "name": "Nail Care", "count": 1},
+    {"id": "aroma", "name": "Aromatherapy", "count": 1},
+    {"id": "facility", "name": "Salon Facility", "count": 1}
+  ]
+}
