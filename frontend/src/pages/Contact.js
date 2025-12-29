@@ -29,8 +29,7 @@ const Contact = () => {
     setError('');
 
     try {
-      const apiBase = (process.env.REACT_APP_API_BASE || '').replace(/\/$/, '');
-      const response = await axios.post(`${apiBase}/api/contact-messages`, formData);
+      const response = await axios.post(`https://salon-website-5zml.onrender.com/api/contact-messages`, formData);
       
       if (response.data.success) {
         setSuccess(true);
