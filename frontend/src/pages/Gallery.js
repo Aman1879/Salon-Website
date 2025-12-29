@@ -17,7 +17,7 @@ const Gallery = () => {
   const fetchGalleryData = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:5000/api/gallery');
+      const response = await axios.get('https://salon-website-5zml.onrender.com/api/gallery');
       setGalleryData(response.data);
       setError('');
     } catch (err) {
