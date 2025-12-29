@@ -14,7 +14,7 @@ const Admin = () => {
   const [updatingId, setUpdatingId] = useState(null);
   const [search, setSearch] = useState('');
   const [showMessagesOnly, setShowMessagesOnly] = useState(false);
-  const apiBase = (process.env.REACT_APP_API_BASE || '').replace(/\/$/, '');
+  const apiBase = "https://salon-website-5zml.onrender.com/api";
 
   useEffect(() => {
     const savedKey = sessionStorage.getItem('adminKey');
