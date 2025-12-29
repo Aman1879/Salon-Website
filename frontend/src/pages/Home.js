@@ -30,7 +30,7 @@ const Home = () => {
   const fetchHomeData = async () => {
     try {
       // Fetch featured services
-      const servicesRes = await axios.get('http://localhost:5000/api/services');
+      const servicesRes = await axios.get('https://salon-website-5zml.onrender.com/api/services');
       const services = servicesRes.data.services;
 
       // Ensure Haircut, Face Massage (or Facial), and Makeup are featured if available
@@ -56,11 +56,11 @@ const Home = () => {
       setFeaturedServices(selected.slice(0, 3));
 
       // Fetch featured gallery items
-      const galleryRes = await axios.get('http://localhost:5000/api/gallery/featured');
+      const galleryRes = await axios.get('https://salon-website-5zml.onrender.com/api/gallery/featured');
       setFeaturedGallery(galleryRes.data);
 
       // Fetch testimonials
-      const testimonialsRes = await axios.get('http://localhost:5000/api/testimonials');
+      const testimonialsRes = await axios.get('https://salon-website-5zml.onrender.com/api/testimonials');
       setTestimonials(testimonialsRes.data);
     } catch (error) {
       console.error('Error fetching home data:', error);
