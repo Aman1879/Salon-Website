@@ -32,9 +32,9 @@ const Admin = () => {
         setLoading(true);
         setError(null);
         const [inquiriesRes, messagesRes] = await Promise.all([
-          axios.get(`${apiBase}/api/inquiries?key=${adminKey}`),
-          axios.get(`${apiBase}/api/contact-messages?key=${adminKey}`)
-        ]);
+  axios.get(`${apiBase}/inquiries?key=${adminKey}`), // Removed /api
+  axios.get(`${apiBase}/contact-messages?key=${adminKey}`) // Removed /api
+]);
         setInquiries(inquiriesRes.data || []);
         setContactMessages(messagesRes.data || []);
       } catch (err) {
@@ -58,7 +58,8 @@ const Admin = () => {
       return;
     }
     try {
-      await axios.get(`${apiBase}/api/inquiries?key=${inputKey}`);
+     
+await axios.get(`${apiBase}/inquiries?key=${inputKey}`); // Removed /api
       sessionStorage.setItem('adminKey', inputKey);
       setAdminKey(inputKey);
       setIsAuthenticated(true);
@@ -72,9 +73,9 @@ const Admin = () => {
     setUpdatingId(id);
     try {
       const res = await axios.put(
-        `${apiBase}/api/inquiries/${id}/status?key=${adminKey}`,
-        { status: newStatus }
-      );
+  `${apiBase}/inquiries/${id}/status?key=${adminKey}`, // Removed /api
+  { status: newStatus }
+);
       setInquiries(inquiries.map(i => i.id === id ? res.data.inquiry : i));
     } catch (err) {
       setError(`Failed: ${err?.response?.data?.error || err.message}`);
@@ -87,9 +88,9 @@ const Admin = () => {
     setUpdatingId(id);
     try {
       const res = await axios.put(
-        `${apiBase}/api/contact-messages/${id}/status?key=${adminKey}`,
-        { status: newStatus }
-      );
+  `${apiBase}/contact-messages/${id}/status?key=${adminKey}`, // Removed /api
+  { status: newStatus }
+);
       setContactMessages(contactMessages.map(m => m.id === id ? res.data.contactMessage : m));
     } catch (err) {
       setError(`Failed: ${err?.response?.data?.error || err.message}`);
