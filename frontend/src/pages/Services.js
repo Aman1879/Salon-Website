@@ -17,8 +17,8 @@ const Services = () => {
     try {
       setLoading(true);
       const url = selectedCategory === 'all' 
-        ? 'http://localhost:5000/api/services'
-        : `http://localhost:5000/api/services?category=${selectedCategory}`;
+        ? 'https://salon-website-5zml.onrender.com/api/services'
+        : `https://salon-website-5zml.onrender.com/api/services?category=${selectedCategory}`;
       
       const response = await axios.get(url);
       const normalized = response.data.services.map((svc) => {
@@ -342,7 +342,7 @@ const Services = () => {
                         <Clock className="w-4 h-4 mr-1" />
                         <span>{service.duration} min</span>
                       </div>
-                      <div className="text-2xl font-bold text-gray-800">${service.price}</div>
+                      <div className="text-2xl font-bold text-gray-800">₹{service.price}</div>
                     </div>
                     <Link 
                       to={`/booking?service=${encodeURIComponent(service.name)}`}
