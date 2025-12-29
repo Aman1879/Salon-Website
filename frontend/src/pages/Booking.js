@@ -38,7 +38,7 @@ const Booking = () => {
   const fetchServices = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:5000/api/services');
+      const response = await axios.get('https://salon-website-5zml.onrender.com/api/services');
       setServices(response.data.services);
     } catch (err) {
       console.error('Error fetching services:', err);
@@ -75,7 +75,7 @@ const Booking = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/inquiries', formData);
+     const response = await axios.post('https://salon-website-5zml.onrender.com/api/inquiries', formData);
       
       if (response.data.success) {
         setSuccess(true);
